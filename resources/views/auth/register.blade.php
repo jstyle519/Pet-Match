@@ -12,7 +12,7 @@
 
       <label for="file_photo" class="rounded-circle userProfileImg">
         <div class="userProfileImg_description">画像をアップロード</div>
-        <i class="fas fa-camera fa-3x"></i>
+        <i class="fas fas fa-paw fa-3x"></i>
         <input type="file" id="file_photo" name="img_name">
 
       </label>
