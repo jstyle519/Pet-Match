@@ -36,4 +36,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function toUserID()
+    {
+        return $this->hasMany('App\Reaction', 'to_user_id', 'id');
+    }
+
+    public function fromUserID()
+    {
+        return $this->hasMany('App\Reaction', 'from_user_id', 'id');
+    }
 }
