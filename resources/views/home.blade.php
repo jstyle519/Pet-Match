@@ -7,7 +7,9 @@
     <ul>
       <li class="personIcon">
         <a href="/users/show/{{Auth::id()}}"><i class="fas fa-user fa-2x"></i></a></li>
-      <li class="appIcon"><a href="{{route('home')}}"><img src="/images/techpit-match-icon.png"></a></li>
+      <li class="appIcon"><a href="{{route('home')}}"><i class="fas fas fa-dog fa-2x"></i></a></li>
+
+      <li class="messageIcon"><a href="{{route('matching')}}"><i class="fas fa-2x fa-comments"></a></i></li>
     </ul>
   </nav>
   <div id="tinderslide">
@@ -21,7 +23,7 @@
         </li>
         @endforeach
     </ul>
-    <div class="noUser">近くにお相手がいません。</div>
+    <div class="noUser">近くにワンちゃんがいません。</div>
   </div>
   <div class="actions" id="actionBtnArea">
       <a href="#" class="dislike"><i class="fas fa-times fa-2x"></i></a>
