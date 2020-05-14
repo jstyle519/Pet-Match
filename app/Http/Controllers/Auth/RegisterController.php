@@ -69,6 +69,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
         $imageFile = $data['img_name'];
 
         $list = FileUploadServices::fileUpload($imageFile);

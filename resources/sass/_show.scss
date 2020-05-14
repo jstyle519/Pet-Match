@@ -37,6 +37,18 @@
     }
   }
 
+  .userInfo_selfIntroduction {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .Introduction {
+    text-align: center;
+    border-bottom: 1px solid #c3c7d0;
+    margin-top: 20px;
+  }
+
   .userAction {
     display: flex;
     justify-content: space-between;
