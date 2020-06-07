@@ -1,3 +1,4 @@
+{{-- レイアウト --}}
 @extends('layouts.layout')
 
 @section('content')
