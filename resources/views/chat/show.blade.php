@@ -1,3 +1,4 @@
+{{-- チャット画面 --}}
 @extends('layouts.layout')
 
 @section('content')
@@ -19,7 +20,7 @@
       @else
         <span>{{$chat_room_user_name}}</span>
       @endif
-      
+      {{-- メッセージ --}}
       <div class="commonMessage">
         <div>
         {{$message->message}}
@@ -29,6 +30,7 @@
     @endforeach
     </div>
   </div>
+  {{-- メッセージ入力 --}}
   <form class="messageInputForm">
     <div class='container'>
       <input type="text" data-behavior="chat_message" class="messageInputForm_input" placeholder="メッセージを入力...">
