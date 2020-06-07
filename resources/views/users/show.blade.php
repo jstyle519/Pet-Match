@@ -1,3 +1,4 @@
+{{-- プロフィール編集 --}}
 @extends('layouts.layout')
 
 @section('content')
