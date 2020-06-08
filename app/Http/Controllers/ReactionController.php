@@ -19,7 +19,7 @@ class ReactionController extends Controller
         $to_user_id = $request->to_user_id;
         $like_status = $request->reaction;
         $from_user_id = $request->from_user_id;
-
+        // likeとdislikeを判別する
         if ($like_status === 'like'){
             $status = Status::LIKE;
         }else{
