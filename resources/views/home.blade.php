@@ -1,4 +1,4 @@
-{{-- レイアウト --}}
+{{-- ホームレイアウト --}}
 @extends('layouts.layout')
 
 @section('content')
