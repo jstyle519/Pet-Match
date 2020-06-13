@@ -15,7 +15,7 @@
         {{ $message }}
     </span>
     @enderror
-
+    {{-- 画像のアップロード --}}
       <label for="file_photo" class="rounded-circle userProfileImg">
         <div class="userProfileImg_description">画像をアップロード</div>
         <i class="fas fa-camera fa-3x"></i>
@@ -26,6 +26,7 @@
         <img id="thumbnail" class="userImgPreview_content" accept="image/*" src="">
         <p class="userImgPreview_text">画像をアップロード済み</p>
       </div>
+      {{-- プロフィール --}}
       <div class="form-group">
         <label>名前</label>
         <input type="text" name="name" class="form-control" value="{{ $user->name }}">
