@@ -12,6 +12,7 @@
       </a>
       </p>
     </header>
+    {{-- ユーザー画像 --}}
     <div class='userInfo'>
       <div class='userInfo_img'>
       <img src="/storage/images/{{$user -> img_name}}">
