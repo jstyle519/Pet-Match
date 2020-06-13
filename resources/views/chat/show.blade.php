@@ -1,4 +1,4 @@
-{{-- チャット画面 --}}
+{{-- チャットページ画面 --}}
 @extends('layouts.layout')
 
 @section('content')
@@ -7,6 +7,7 @@
   <header class="header">
   <a href="{{route('matching')}}" class="linkToMatching"></a>
     <div class="chatPartner">
+      {{-- userimage --}}
       <div class="chatPartner_img"><img src="/storage/images/{{$chat_room_user -> img_name}}"></div>
       <div class="chatPartner_name">{{ $chat_room_user -> name }}</div>
     </div>
