@@ -1,4 +1,4 @@
-{{-- トップ画面 --}}
+{{-- トップページ画面 --}}
 @extends('layouts.layout')
 
 @section('content')
