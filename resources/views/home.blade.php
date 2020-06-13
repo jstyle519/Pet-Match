@@ -26,6 +26,7 @@
     </ul>
     <div class="noUser">近くにワンちゃんがいません。</div>
   </div>
+    {{-- likeの選別 --}}
   <div class="actions" id="actionBtnArea">
       <a href="#" class="dislike"><i class="fas fa-times fa-2x"></i></a>
       <a href="#" class="like"><i class="fas fa-heart fa-2x"></i></a>
